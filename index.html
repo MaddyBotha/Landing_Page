@@ -1,0 +1,177 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>My Landing Page</title>
+</head>
+
+<body>
+  <!-- Nav Section -->
+  <nav class="navbar">
+    <div class="brand">Code<span class="designs">Sensei</span></div>
+    <ul class="topnav" id="navbar-toggle">
+      <li><a href="#" class="nav-link">Home</a></li>
+      <li><a href="#" class="nav-link">Product</a></li>
+      <li><a href="#" class="nav-link">about us</a></li>
+      <li><a href="#" class="nav-link">contact</a></li>
+      <li class="dropdownLink"><a onclick="toggleDropdown()" href="javascript:void(0)">&#9776;</a></li>
+    </ul>
+  </nav>
+  <!-- Header Section -->
+  <header>
+    <div class="headshot-wrapper">
+      <img class="headshot" src="assets/noun_person.svg" alt="person by Gregor Cresnar from the Noun Project">
+      <h1>Firstname Lastname</h1>
+    </div>
+  </header>
+  <!-- Services Section -->
+  <section class="services">
+    <div class="container">
+      <div class="media-object">
+        <div class="icon-left">
+          <img class="icon" src="assets/graph_lines.svg" alt="graph_lines_chart">
+        </div>
+        <div class="blurb-wrapper-right">
+          <h3 class="blurb-header">Scalable Code</h3>
+          <div class="blurb-info">
+            Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
+            De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia?
+            De apocalypsi gorger omero undead survivor dictum mauris.
+          </div>
+        </div>
+      </div>
+      <div class="media-object">
+        <div class="icon-right">
+          <img class="icon" src="assets/pie_chart.svg" alt="graph_lines_chart">
+        </div>
+        <div class="blurb-wrapper-left">
+          <h3 class="blurb-header">The Other Cool Attribute</h3>
+          <div class="blurb-info">
+            Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
+            De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia?
+            De apocalypsi gorger omero undead survivor dictum mauris.
+          </div>
+        </div>
+      </div>
+      <div class="media-object">
+        <div class="icon-left">
+          <img class="icon" src="assets/assistant_icon.svg" alt="graph_lines_chart">
+        </div>
+        <div class="blurb-wrapper-right">
+          <h3 class="blurb-header">6 Months of Support</h3>
+          <div class="blurb-info">
+            Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
+            De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia?
+            De apocalypsi gorger omero undead survivor dictum mauris.
+          </div>
+        </div>
+      </div>
+      <!-- Button -->
+      <div class="quote-btn-wrapper">
+        <button class="quote-btn">Get a quote</button>
+      </div>
+    </div>
+  </section>
+  <!-- Portfolio Section -->
+  <section class="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h1 class="header">Previous Works</h1>
+      </div>
+      <div class="portfolio-wrapper">
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Project</h4>
+          <div class="portfolio-text">
+            Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
+          </div>
+        </div>
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Project</h4>
+          <div class="portfolio-text">
+            Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
+          </div>
+        </div>
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Project</h4>
+          <div class="portfolio-text">
+            Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
+          </div>
+        </div>
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Project</h4>
+          <div class="portfolio-text">
+            Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
+          </div>
+        </div>
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Project</h4>
+          <div class="portfolio-text">
+            Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
+          </div>
+        </div>
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Project</h4>
+          <div class="portfolio-text">
+            Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
+          </div>
+        </div>
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Project</h4>
+          <div class="portfolio-text">
+            Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
+          </div>
+        </div>
+        <div class="portfolio-object">
+          <div class="portfolio-box"></div>
+          <h4>Project</h4>
+          <div class="portfolio-text">
+            Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact-container">
+    <div class="container">
+      <div class="section-header">
+        <h1>Drop us a line</h1>
+      </div>
+      <form action="">
+        <label for="email">*email</label>
+        <div class="form-group">
+          <input class="form-control" type="email" id="email">
+        </div>
+        <label for="name">*name</label>
+        <div class="form-group">
+          <input class="form-control" type="text" id="name">
+        </div>
+        <label for="name">*message</label>
+        <div class="form-group">
+          <textarea class="form-control" name="message" id="message" rows="6"></textarea>
+        </div>
+        <div class="submit-btn-wrapper">
+          <button class="quote-btn">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="main.js">
+
+  </script>
+</body>
+
+</html>
